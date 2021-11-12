@@ -1,6 +1,8 @@
 # webcomic_autoslicer
 An automatic slicer for vertical scroll webcomics made in Photoshop.
 
+![slicingGif](https://user-images.githubusercontent.com/7714559/141412141-8d5b8149-4e8c-4b77-8c89-718313168162.gif)
+
 ![webcomic slicer in action](https://user-images.githubusercontent.com/7714559/141412066-396056a3-9ca2-47e8-8d17-18010f78fe2c.mp4)
 
 ## Set-up

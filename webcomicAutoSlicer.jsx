@@ -86,6 +86,7 @@ function sliceAndExportFile(inputFile, relativeOutputPath, sliceName, sliceHoriz
     // Export
     docExportOptions = new ExportOptionsSaveForWeb; 
     docExportOptions.format = SaveDocumentType.JPEG;
+    docExportOptions.quality = 100;
     var outputFile = new File(relativeOutputPath + '/' + sliceName +'.jpg');
     active.exportDocument(outputFile,ExportType.SAVEFORWEB,docExportOptions);
 

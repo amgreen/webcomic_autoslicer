@@ -1,6 +1,8 @@
 # webcomic_autoslicer
 An automatic slicer for vertical scroll webcomics made in Photoshop.
 
+![PS Screenshot](https://user-images.githubusercontent.com/7714559/141411786-50d7706e-6c5d-462c-8605-c9f9a8587907.png)
+
 ## Set-up
 1. Load the Webtoon action set into Photoshop.
 2. Create a Photoshop file using webcomicEpisodeTemplateImage.jpg as the template for the artwork. (20000px by 3600px, 25 columns of 3 slices) Draw on the white, black is useful for gutters / buffers.
@@ -10,3 +12,4 @@ An automatic slicer for vertical scroll webcomics made in Photoshop.
 
 ## Output
 The output of the slicing will appear in the file location of the original file you sliced, in a folder called "finalSlices"
+

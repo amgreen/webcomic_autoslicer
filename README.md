@@ -17,8 +17,7 @@ This results in a sliced webcomic from top to bottom, left to right.
 
 ## Output
 The output of the slicing will appear in the file location of the original file you sliced, in a folder called "finalSlices"
-
-
-
+### !!! 
+Output folder "finalSlices" deletes existing folder with the same name in that location. Move previous slices if you want to keep them.
 
 

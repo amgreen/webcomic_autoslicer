@@ -1,9 +1,12 @@
 # webcomic_autoslicer
-An automatic slicer for vertical scroll webcomics made in Photoshop.
+An automatic slicer for vertical scroll webcomics made in Photoshop. Maybe one day PS will fix their slicer tool, but until then...
+
+## Process
+slices the file vertically, then slices each of those verticals horizontally.
+This results in a sliced webcomic from top to bottom, left to right.
+![webcomic slicer in action](https://user-images.githubusercontent.com/7714559/141412066-396056a3-9ca2-47e8-8d17-18010f78fe2c.mp4)
 
 ![slicingGif](https://user-images.githubusercontent.com/7714559/141412141-8d5b8149-4e8c-4b77-8c89-718313168162.gif)
-
-![webcomic slicer in action](https://user-images.githubusercontent.com/7714559/141412066-396056a3-9ca2-47e8-8d17-18010f78fe2c.mp4)
 
 ## Set-up
 1. Load the Webtoon action set into Photoshop.

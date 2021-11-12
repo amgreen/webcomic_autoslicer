@@ -4,6 +4,7 @@ An automatic slicer for vertical scroll webcomics made in Photoshop. Maybe one d
 ## Process
 Slices the file vertically, then slices each of those verticals horizontally.
 This results in a sliced webcomic from top to bottom, left to right.
+Especially useful for larger webcomic files.
 ![webcomic slicer in action](https://user-images.githubusercontent.com/7714559/141412066-396056a3-9ca2-47e8-8d17-18010f78fe2c.mp4)
 
 ![slicingGif](https://user-images.githubusercontent.com/7714559/141412141-8d5b8149-4e8c-4b77-8c89-718313168162.gif)

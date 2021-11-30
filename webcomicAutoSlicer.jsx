@@ -9,6 +9,8 @@ targetPathTempFolder.create();
 var finalDestination = targetPath + '/' + 'finalSlices';
 var finalDestinationFolder = new Folder(finalDestination);
 
+var skipOdds = prompt("Skip Odd Numbered Columns?:", "y", "Skip Odd Columns") === "y";
+
 
 // Remove any pre-existing slice generations, then create a final output folder.
 if(finalDestinationFolder.exists){
@@ -27,6 +29,11 @@ sliceAndExportFile(sourceDoc.fullName, targetPathTemp, 'exportedVerticalSlice', 
 // Then those vertical slices are further sliced horizontally, to create the final slices.
 var count = verticalSlices.getFiles().length;
 for(var i=0; i<count; i++){
+
+    if(i%2 === 1 && skipOdds){
+        continue;
+    }
+
     var finalSliceName = 'vertical'+ i.toString() + '_exportedFinalSlice';
     sliceAndExportFile(verticalSlices.getFiles()[i], finalDestination, finalSliceName, /*sliceHorizontal*/ true);
 

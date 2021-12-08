@@ -17,8 +17,11 @@ Especially useful for larger webcomic files.
 5. Run the webcomicAutoSlicer.jsx script from File>Scripts>Browse
 
 ## Output
-The output of the slicing will appear in the file location of the original file you sliced, in a folder called "finalSlices"
+1. The output of the slicing will appear in the file location of the original file you sliced, in a folder called "finalSlices".
+2. A Webtoon preview will also be created in the same folder (WebtoonPreview.html), which is how the webcomic looks on the Webtoon site when you click "Preview Mobile".
+
 ### !!! 
-Output folder "finalSlices" deletes existing folder with the same name in that location. Move previous slices if you want to keep them.
+1. Output folder "finalSlices" deletes existing folder with the same name in that location. Move previous slices if you want to keep them.
+2. The preview must be on the same level directory as the "finalSlices" folder. Also "finalSlices" cannot be renamed if you want to see the preview (including the image names).
 
 

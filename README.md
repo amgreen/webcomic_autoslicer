@@ -24,4 +24,7 @@ Especially useful for larger webcomic files.
 1. Output folder "finalSlices" deletes existing folder with the same name in that location. Move previous slices if you want to keep them.
 2. The preview must be on the same level directory as the "finalSlices" folder. Also "finalSlices" cannot be renamed if you want to see the preview (including the image names).
 
+## Issue & Troubleshooting
+**If some of the exported images are the wrong file type (like GIFs)**: 
+This has happened for me when working on other projects and exporting those as different file types. The way I have been able to resolve the issue is going to **File>Export>SaveForWeb(Legacy)** and then changing all the settings to the correct values (JPEG, Quality 100) and pressing "Done". Then restart Photoshop for the settings to take effect !This step must be done!.
 
